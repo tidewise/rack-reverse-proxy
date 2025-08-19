@@ -35,8 +35,8 @@ eos
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rack", ">= 1.0.0"
-  spec.add_dependency "rack-proxy", "~> 0.6", ">= 0.6.1", "<0.7.5"
+  spec.add_dependency "rack", ">= 1.0.0", "<3.2.0"
+  spec.add_dependency "rack-proxy", "~> 0.6", ">= 0.6.1"
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.3"
